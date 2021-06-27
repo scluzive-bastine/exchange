@@ -1,0 +1,282 @@
+.bs--input {
+    background: #426d9f;
+    width: 70%;
+}
+
+.input__amount--label {
+    margin-left: .7rem;
+    font-weight: 700;
+    color: #fff;
+    font-size: 11px;
+    margin-top: .2rem;
+}
+
+.bs__input--amount {
+    border: 0!important;
+    outline: 0!important;
+    /* font-size: 24px!important; */
+    padding-top: 0!important;
+    padding-bottom: 5px!important;
+    height: 30px!important;
+    /* margin-bottom: .3rem; */
+    background: transparent!important;
+    color: #fff!important;
+    box-shadow: none!important;
+}
+
+.select__coin-option {
+    width: 30%;
+}
+
+.select__coin-option {
+    background: #375d8d;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Coins DropDown */
+.coins__list--dropdown {
+    width: 330px;
+    position: absolute;
+    margin-left: auto;
+    top: 32px;
+    right: 0;
+    max-height: 380px;
+    display: block;
+    overflow: auto;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.coins__list--dropdown li {
+    cursor: pointer;
+}
+
+.coins__list--dropdown li:hover {
+    background: #f7f6fb;
+}
+
+.coins__list--dropdown::-webkit-scrollbar {
+    width: 5px;
+}
+
+.coins__list--dropdown::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.coins__list--dropdown::-webkit-scrollbar-thumb {
+    background-color: #38b2ac;
+}
+/* Coins DropDown */
+
+.coin__symbol--icon {
+    padding-top: 1rem;
+    margin-right: 2rem;
+}
+
+.coin__send--icon {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+
+.swp--input {
+    background: #38b2ac;
+    width: 70%;
+}
+
+.swp__input--amount {
+    border: 0!important;
+    outline: 0!important;
+    /* font-size: 24px!important; */
+    padding-top: 0!important;
+    padding-bottom: 5px!important;
+    height: 30px!important;
+    /* margin-bottom: .3rem; */
+    background: transparent!important;
+    color: #fff!important;
+    box-shadow: none!important;
+}
+
+.select__swp--option {
+    background: #1f7e79;
+    color: #fff;
+    cursor: pointer;
+    width: 30%;
+}
+
+.swp--content{
+    padding-top: 1.2rem;
+    margin-right: 2rem;
+}
+
+.swp__image img {
+    width: 20px;
+    height: 20px;
+}
+
+.swp__sell--coin {
+    font-size: .8rem;
+}
+
+/* Exchange container  */
+
+.exchange--container {
+    padding: 2rem;
+}
+
+.input__box-container {
+    border: 1px solid #375d8d;
+    padding-bottom: .5rem;
+}
+.input__box-container label {
+    font-size: .8rem;
+}
+
+.input__container--success {
+    border: 1px solid #38b2ac!important;
+}
+.input__container--error {
+    border: 1px solid #f56565!important;
+}
+
+.refund__address--error {
+    border: 1px solid #f56565!important;
+}
+
+.ex__input--error{
+    color: #f56565!important;
+}
+
+.ex__input--address {
+    border: none!important;
+    padding-left: 0!important;
+    padding-top: 0!important;
+    height: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #375d8d;
+}
+
+.ex__input--address:focus {
+    box-shadow: none!important;
+    border: none;
+}
+
+.check--icon {
+    background: #eee;
+    padding: .45rem;
+    height: 40px;
+    width: 40px;
+    color: #cccbcb;
+}
+
+.check--icon i {
+    margin-top: .4rem;
+}
+
+.check--active {
+    background: #38b2ac!important;
+    color: #fff;
+}
+
+.status__checked {
+    background: #38b2ac!important;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: .8rem;
+}
+
+.status__failed {
+    background: red!important;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: .8rem;
+}
+
+.transaction__stages--container {
+    height: 20px; 
+    width: 20px; 
+    /* border: 1px solid gray; */
+}
+
+.exchange__widget {
+    width: 60%;
+}
+.section__three {
+    width: 50%;
+}
+
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ripple div {
+    position: absolute;
+    border: 4px solid #2c4d7b;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+    0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
+    }
+}
+
+.success__header--container {
+    width: 7rem;
+    height: 7rem;
+    /* margin-bottom: -2rem; */
+    /* z-index: 1; */
+}
+
+
+/* Exchange container  */
+
+
+@media only screen and (max-width: 600px) {
+    .bs--input {
+        width: 60%;
+    }
+
+    .select__coin-option {
+        width: 40%;
+    }
+
+    .swp--input {
+        width: 60%;
+    }
+
+    .select__swp--option {
+        width: 40%;
+    }
+
+    .exchange--container {
+        padding: .5rem;
+    }
+    .carousel-cell {
+        margin-bottom: 25rem;
+    }
+}
